@@ -1,0 +1,75 @@
+/* home.css */
+
+.album h2 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.album a {
+    color: #3c3836;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.album a:hover {
+    color: #d79921;
+}
+
+/* responsive album image */
+@media (max-width: 900px) {
+    .album img {
+        max-width: 100%;
+    }
+}
+
+.mailing-list {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.mailing-list form {
+    display: inline-block;
+}
+
+.mailing-list input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #3c3836;
+    border-radius: 5px;
+}
+
+.mailing-list button {
+    padding: 20px;
+    background-color: #fabd27;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.mailing-list button:hover {
+    background-color: #3c3836;
+    color: #d79921;
+}
+
+/* phone size for mailing list */
+@media (max-width: 900px) {
+    .mailing-list input[type="email"] {
+        width: 100%;
+    }
+}
+
+.featured-video {
+    text-align: center;
+}
+
+/* youtube video styling for phone */
+@media (max-width: 900px) {
+    .featured-video iframe {
+        width: 110%;
+        height: auto;
+        aspect-ratio: 16/9;
+        margin: 0 auto;
+        display: block;
+    }
+}

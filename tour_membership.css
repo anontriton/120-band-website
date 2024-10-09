@@ -1,0 +1,21 @@
+/* tour-membership.css */
+main ul li {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 15px 0;
+}
+
+main button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main button:hover {
+    background-color: #282828;
+    color: #ffd700;
+}
