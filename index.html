@@ -11,27 +11,14 @@
 
 <script src="hamburger.js"></script>
 
-<style>
-    .banner img {
-      max-width: 67%;
-      height: auto;
-    }
-
-    .album img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-</style>
-
 <body>
 
     <header>
         <div class="banner">
-            <img src="banner.jpg" alt="band logo">
+            <img src="banner.jpg" alt="band logo"
+            style="max-width: 80%; height: 60%; display: block; margin: 0 auto;">
             <!-- message for mobile users instead of banner img -->
-            <p>ɑCream</p>
+            <p>Home</p>
             <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
             <nav>
                 <ul>
@@ -49,7 +36,8 @@
     <main>
         <section class="album">
             <a href="songlist.html">
-                <img src="album2.jpg" alt="album2">
+                <img src="album2.jpg" alt="album2" 
+                style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
                 <h2>Our Latest Vinyl Release: alphaTOWN Vol. 1</h2>
             </a>
         </section>
