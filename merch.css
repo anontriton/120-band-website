@@ -1,22 +1,61 @@
 /* merch.css */
 main h2 {
-        font-size: 2.5rem;
-        font-style: bold;
-        margin-bottom: 20px;
-    }
-
-main ul {
-    list-style: none;
-    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-main ul li a {
+.merch-table {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 20px;
+}
+
+.merch-table img {
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 1/1;
+    margin: 0 auto;
+}
+
+.merch-table td a {
     color: #282828;
     font-size: 1.5rem;
     text-decoration: none;
     transition: color 0.2s;
 }
 
-main ul li a:hover {
+/* change color on hover for links */
+.merch-table td a:hover {
     color: #fabd2f;
+}
+
+
+/* manual scaling for images */
+@media (max-width: 900px) {
+.merch-table img {
+        max-width: 250px;
+        height: auto;
+        aspect-ratio: 1/1;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .merch-table img {
+        max-width: 175px;
+        height: auto;
+        aspect-ratio: 1/1;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .merch-table img {
+        max-width: 100px;
+        height: auto;
+        aspect-ratio: 1/1;
+        margin: 0 auto;
+    }
 }
