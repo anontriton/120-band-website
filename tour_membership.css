@@ -13,6 +13,7 @@ main button {
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    border: none;
 }
 
 main button:hover {
