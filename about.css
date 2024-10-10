@@ -1,17 +1,21 @@
 /* about.css */
-main p {
+main {
     text-align: center;
     padding: 20px;
     font-size: 1.2rem;
     line-height: 1.8;
-    max-width: 50%;
+    width: 50%;
     margin: 0 auto;
 }
 
-/* Media query for mobile devices (screens smaller than 768px) */
-@media (max-width: 900px) {
-    main p {
-        max-width: 100%; /* Make the paragraph take up the full width */
-        padding: 10px;   /* Optional: Reduce padding for smaller screens */
-    }
+main ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
 }
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+

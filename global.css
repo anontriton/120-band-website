@@ -5,7 +5,7 @@
     cursor: pointer;
     background: none;
     border: none;
-    color: white;
+    color: #fbf1c7;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -87,22 +87,22 @@ nav ul li a:hover {
 /* hide nav menu, show hamburger button */
 @media (max-width: 900px) {
     nav ul {
-        display: none; /* Hide the nav links */
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 50px;
         right: 0;
-        background-color: #333;
+        background-color: #282828;
         width: 100%;
         text-align: center;
     }
 
     nav ul.show {
-        display: flex; /* Show the nav links when toggled */
+        display: flex;
     }
 
     .hamburger {
-        display: block; /* Show hamburger icon on mobile */
+        display: block;
     }
 }
 

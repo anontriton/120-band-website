@@ -1,26 +1,22 @@
 /* merch.css */
 main h2 {
-    text-align: center;
-    margin: 20px 0;
-}
+        font-size: 2.5rem;
+        font-style: bold;
+        margin-bottom: 20px;
+    }
 
 main ul {
     list-style: none;
     text-align: center;
 }
 
-main ul li {
-    margin: 10px 0;
-}
-
 main ul li a {
     color: #282828;
-    font-weight: bold;
     font-size: 1.5rem;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 
 main ul li a:hover {
-    color: #ffd700;
+    color: #fabd2f;
 }
